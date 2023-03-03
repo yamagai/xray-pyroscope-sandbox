@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.12, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.5, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="google-protobuf (v3.21.12, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="googleapis-common-protos-types (v1.5.0, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-api (v1.1.0, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-common (v0.19.6, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-exporter-otlp (v0.24.0, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-propagator-xray (v0.21.1, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-registry (v0.2.0, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-sdk (v1.2.0, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-semantic_conventions (v1.8.0, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pyroscope (v0.5.2, rbenv: 2.6.10) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pyroscope-otel (v0.1.1, rbenv: 2.6.10) [gem]" level="application" />
+  </component>
+</module>
