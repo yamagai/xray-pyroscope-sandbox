@@ -49,7 +49,7 @@ class Hoge
     end
   end
 
-  def self.with_create_span(delete_root_span: false, &block)
+  def self.with_create_span(finish_root_span: false, &block)
     begin
       parent = OpenTelemetry.propagation.extract(@@carrier)
       span = @@tracer.start_span("child", with_parent: parent)
@@ -59,7 +59,7 @@ class Hoge
       span&.status = Status.error("DsTrace Unhandled exception of type: #{e.class}")
     ensure
       span&.finish
-      @@root_span&.finish if delete_root_span
+      @@root_span&.finish if finish_root_span
     end
   end
 end
@@ -69,7 +69,7 @@ Hoge.with_create_root_span do
   p "do something root"
 end
 
-Hoge.with_create_span(delete_root_span: true) do
+Hoge.with_create_span(finish_root_span: true) do
   p "do something"
   # Hoge.with_create_span do
   #   p "do something2"
